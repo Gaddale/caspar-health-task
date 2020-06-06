@@ -20,4 +20,4 @@
 
 ## Note
 
-Automated against Android, not able to give solution to IOS since I do not have mac.  
+Automated against Android, not able to test against IOS since I do not have mac.  
