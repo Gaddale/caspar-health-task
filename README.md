@@ -3,28 +3,20 @@
 ## Tools Used
 
 * Appium with Java
-* Log4J for logging
-* Extentreports for reporting
+* Cucumber html for reporting
 
 ## Execution
 
 1. Update these Configuration variables before running in any local machine
 
   * SDK_PATH
-  * DRIVER_EXE_PATH
-  * APPIUM_JS_Path
   * EMULATOR_NAME
-  * DATE_TO_SELECT
     
-2. From the command prompt run `mvn clean install` or `mvn verify`
-
-## Logging
-
-* Captured logging under file `log/logging.log`
+2. From the command prompt run `mvn clean install` or `mvn verify -Dplatform='ANDROID'`
 
 ## Reporting
 
-* Extent html reports `report/report.html`
+* Cucumber html reports `target/cucumber-html-reports/overview-features.html`
 
 ## Note
 
